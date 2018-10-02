@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/main"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Doors Control"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/door_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Front Door"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp"
+                    android:theme="@style/SW" />
+
+                <Switch
+                    android:id="@+id/garage_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:checked="false"
+                    android:text="Garage Door"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp"
+                     />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="1st Room Control"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/Light1_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Light Room 1"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <Switch
+                    android:id="@+id/Fan_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.08"
+                    android:text="Air conditoiner 1"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="2nd Room Control"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/Light2_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Light Room 2"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <Switch
+                    android:id="@+id/fan_switch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.08"
+                    android:text="Air conditoiner 2"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="3rd Room Control"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/Light3_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Light Room 3"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <Switch
+                    android:id="@+id/fan_switch3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.08"
+                    android:text="Air conditoiner 3"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:id="@+id/exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.08"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp"
+                    android:text="Exit"
+                    android:textColor="@color/abc_primary_text_material_dark" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
